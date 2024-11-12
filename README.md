@@ -52,15 +52,22 @@ The implementation includes:
 
 ### Usage Instructions
 1. Clone the repository:
+    ```
     git clone https://github.com/mtrishal123/HW_to_Chapter_15.git
     cd HW_Chapter_15
+    ```
 
 2. Install dependencies:
-   pip install numpy
+
+```
+pip install numpy
+```
 
 3. Run the program:
+   ```
    python convolution_program.py --mode depthwise
    python convolution_program.py --mode pointwise
+   ```
 
 4. Output will display the convoluted image.
 
